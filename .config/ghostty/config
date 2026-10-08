@@ -1,0 +1,46 @@
+# ==============================================================================
+# FONT & TYPOGRAPHY
+# ==============================================================================
+# JetBrains Mono Nerd Font hoặc bất kỳ Nerd Font nào bạn thích
+font-family = "JetBrainsMono Nerd Font"
+font-size = 14
+font-feature = ["calt", "liga"]
+adjust-cell-height = 15%
+
+# ==============================================================================
+# THEME & APPEARANCE
+# ==============================================================================
+# TokyoNight, Catppuccin Mocha, hoặc Gruvbox Dark tùy khẩu vị
+theme = "tokyonight"
+
+# Tối ưu giao diện macOS sạch, tập trung vào nội dung
+background-opacity = 0.98
+background-blur-radius = 20
+macos-titlebar-style = hidden
+window-padding-x = 12
+window-padding-y = 12
+window-inherit-working-directory = true
+
+# ==============================================================================
+# SHELL INTEGRATION & BEHAVIOR
+# ==============================================================================
+shell-integration = detect
+shell-integration-features = cursor,sudo,title
+
+# Ẩn chuột khi gõ phím
+mouse-hide-while-typing = true
+
+# Không hỏi xác nhận khi đóng tab nếu process ngầm không quan trọng
+confirm-close-surface = false
+
+# ==============================================================================
+# TMUX & VIM COMPATIBILITY
+# ==============================================================================
+# Bắt buộc bật CSI u protocol để Vim/Neovim nhận diện đúng các tổ hợp phím phức tạp
+# như <C-i>, <C-m>, <S-CR> mà không bị nuốt hoặc nhầm với Tab / Enter
+clipboard-read = allow
+clipboard-paste-protection = true
+
+# Nhường hầu hết phím tắt cho Tmux và Neovim quản lý
+# Tắt bớt các keybind mặc định của terminal để tránh nuốt phím Alt / Cmd
+macos-option-as-alt = true
